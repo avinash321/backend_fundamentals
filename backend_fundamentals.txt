@@ -1,0 +1,27 @@
+backend fundamentals:
+- MAC Address: A MAC (Media Access Control) address is a hardware-level
+ unique identifier assigned to a network interface (NIC),
+ not to the whole device.
+One laptop with: Wi-Fi, Ethernet
+will have 2 MAC addresses.
+
+- IP Address: An IP address is assigned to a device when it connects 
+to a network (not necessarily the internet).
+It can be assigned by:
+DHCP (dynamic)
+Manually configured (static)
+Even a local LAN without internet gives IPs.
+
+- ARP Protocol: A protocol that maps IP address → MAC address 
+inside a local network.
+Example:
+“Who has IP 192.168.1.10? Tell me your MAC.”
+
+- ICMP Protocol : Internet Control Message Protocol
+ICMP is used for:
+Error reporting, Network reachability, Diagnostics
+Used by:ping, traceroute
+
+- traceroute : The path (routers) a packet takes to reach a destination.
+
+- tcpdump: A packet sniffer that captures live network traffic.
